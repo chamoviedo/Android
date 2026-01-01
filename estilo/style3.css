@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+ 
+     :root {
+
+        --cor0: #26C2FF;
+        --cor1: #0B4279;
+        --cor2: #F7F7F7;
+        --cor3: #A3F178;
+        --cor4: #003B71;
+     }
+       
+             
+        body {
+            background-color: red;
+            ;
+        }
+            main p {
+                 text-align: justify;
+            text-indent: 30px;
+            }
+
+           
+      
+
+        main {
+            background-color: white;
+           
+            padding: 10px;
+            margin: auto;
+            
+        }
+    
