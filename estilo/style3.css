@@ -35,19 +35,84 @@
             color: var(--cor0);
         }
 
-            main p {
-                 text-align: justify;
-            text-indent: 30px;
-            }
+        nav.normal a {
+            font-family: var(--font-destaque);
+            font-size: 1.4em;
+            background-color: #0B4279;
+            color: white;
+            padding: 10px 30px;
+            text-decoration: none;
+            margin: 20px 80px;
+            
+        }
+
+        nav.normal a:visited {
+            color: white;
+            background-color: var(--cor0);
+
+        }
+        img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
 
            
-      
 
         main {
             background-color: white;
-           
+           max-width: 1000px;
+           min-width: 300px;
             padding: 10px;
             margin: auto;
             
         }
+
+        main h2 {
+            background-image: linear-gradient(to right, var(--cor3), transparent);
+            
+            margin: 20px;
+            font: normal bold 1.8em var(--font-destaque);
+
+
+        }
+         main p {
+                 text-align: justify;
+            text-indent: 30px;
+            padding: 20px;
+            margin: 15px 0px ;
+            font: normal normal 1em var(--font-padrão);
+            line-height: 1.5em;
+            }
+
+            aside ol {
+                list-style-position: inside;
+                list-style-type: none;
+                margin-bottom: 30px;
+                columns: 2;
+            }
+
+            div.video {
+                background-color: #0B4279;
+                position: relative;
+                margin: 0px -20px 30px -20px ;
+                padding: 20px;
+                padding-bottom: 50%;
+            }
+            div.video > iframe {
+                position: absolute;
+                top: 5%;
+                left: 5%;
+                width: 90%;
+                height: 90%
+            }
+            footer {
+                background-color: #0B4279;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+
+
+
+        
     
