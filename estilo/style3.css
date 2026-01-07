@@ -33,11 +33,12 @@
         nav.principal a:hover {
             text-decoration: underline;
             color: var(--cor0);
+            background-color: darkorange;
+            border-radius: 10px;
         }
 
         nav.normal a {
             font-family: var(--font-destaque);
-            font-size: 1.4em;
             background-color: #0B4279;
             color: white;
             padding: 10px 30px;
@@ -46,11 +47,14 @@
             
         }
 
-        nav.normal a:visited {
-            color: white;
+        .normal a:hover {
             background-color: var(--cor0);
-
+            color:  black;
+            text-decoration: underline;
+            border-radius: 10px;
         }
+
+        
         img {
             width: 100%;
             margin-bottom: 20px;
