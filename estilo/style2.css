@@ -78,10 +78,38 @@
    font: normal normal 1em var(--font-padão);
    text-indent: 30px;
  }
+ main ul {
+  list-style-position: inside;
+  list-style-type: '\2714\00a0\00a0';
+  margin: 20px;
+ }
 img {
    display: block;
    margin: auto;
+   width: 50%;
    
+}
+ main section {
+  height: 700px;
+   background-image: url('../imagens/fmea-full.jpg');
+   background-position: center center;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+ 
+ 
+}
+main aside {
+  background-color: var(--cor0);
+  border-radius: 20px;
+}
+
+aside h2 {
+  background-color: var(--cor3);
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 20px;
+  padding: 20px -20px ;
 }
  footer {
    text-align: center;
