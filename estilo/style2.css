@@ -111,6 +111,22 @@ aside h2 {
   margin-top: 20px;
   padding: 20px -20px ;
 }
+.video {
+  background-color: var(--cor3);
+  position: relative;
+  padding: 10px;
+  margin: 0px 0px 0px 0px;;
+  
+  padding-bottom: 58%;
+}
+.video iframe {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  height: 90%;
+  width: 90%;
+  
+}
  footer {
    text-align: center;
    background-color: var(--cor3);
